@@ -157,7 +157,7 @@ for (index, value) in shoppingList.enumerated() {
 // Item 3: Flour
 // Item 4: Baking Powder
 // Item 5: Bananas
-//: For more about the for-in loop, see For-In Loops.
+//: For more about the `for-in` loop, see For-In Loops.
 //:
 //: ## Sets
 //:
