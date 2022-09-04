@@ -1,6 +1,6 @@
 //: ![Swift](swift-logo.png)
 //: Swift v5.7 [official docs](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html)
-//: # Collection Types
+//: # 4. Collection Types
 //:
 //:
 //: Swift provides three primary collection types, known as arrays, sets, and dictionaries, for storing collections of values. Arrays are ordered collections of values. Sets are unordered collections of unique values. Dictionaries are unordered collections of key-value associations.
