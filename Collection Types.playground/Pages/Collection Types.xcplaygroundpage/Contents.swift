@@ -60,7 +60,7 @@ var sixDoubles = threeDoubles + anotherThreeDoubles
 //: ### Creating an Array with an Array Literal
 //:
 //: You can also initialize an array with an array literal, which is a shorthand way to write one or more values as an array collection. An array literal is written as a list of values, separated by commas, surrounded by a pair of square brackets:
-[value 1, value 2, value 3]
+["value1", "value2", "value3"]
 //: The example below creates an array called shoppingList to store String values:
 
 var shoppingList: [String] = ["Eggs", "Milk"]
@@ -208,7 +208,7 @@ var favoriteGenres: Set<String> = ["Rock", "Classical", "Hip hop"]
 //:     → The favoriteGenres set is declared as a variable (with the var introducer) and not a constant (with the let introducer) because items are added and removed in the examples below.
 //:
 //: A set type can’t be inferred from an array literal alone, so the type Set must be explicitly declared. However, because of Swift’s type inference, you don’t have to write the type of the set’s elements if you’re initializing it with an array literal that contains values of just one type. The initialization of favoriteGenres could have been written in a shorter form instead:
-var favoriteGenres: Set = ["Rock", "Classical", "Hip hop"]
+var favoriteGenres2: Set = ["Rock", "Classical", "Hip hop"]
 //: Because all values in the array literal are of the same type, Swift can infer that Set<String> is the correct type to use for the favoriteGenres variable.
 //:
 //: ### Accessing and Modifying a Set
