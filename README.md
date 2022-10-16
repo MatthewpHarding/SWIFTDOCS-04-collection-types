@@ -28,7 +28,7 @@ let myLife = [learning, coding, happiness]
 
 Swift provides three primary collection types, known as arrays, sets, and dictionaries, for storing collections of values. Arrays are ordered collections of values. Sets are unordered collections of unique values. Dictionaries are unordered collections of key-value associations.
 
-![Diagram](CollectionTypes_intro_2x.png)
+![Diagram](readme-images/CollectionTypes_intro_2x.png)
 
 Arrays, sets, and dictionaries in Swift are always clear about the types of values and keys that they can store. This means that you can’t insert a value of the wrong type into a collection by mistake. It also means you can be confident about the type of values you will retrieve from a collection.
 
@@ -420,7 +420,7 @@ You can efficiently perform fundamental set operations, such as combining two se
 
 The illustration below depicts two sets—`a` and `b`—with the results of various set operations represented by the shaded regions.
 
-![Diagram](setVennDiagram_2x.png)
+![Diagram](readme-images/setVennDiagram_2x.png)
 
 * Use the `intersection(_:)` method to create a new set with only the values common to both sets.
 
@@ -449,7 +449,7 @@ oddDigits.symmetricDifference(singleDigitPrimeNumbers).sorted()
 
 The illustration below depicts three sets—`a`, `b` and `c`—with overlapping regions representing elements shared among sets. Set `a` is a superset of set `b`, because a contains all elements in `b`. Conversely, set `b` is a subset of set `a`, because all elements in `b` are also contained by `a`. Set `b` and set `c` are disjoint with one another, because they share no elements in common.
 
-![Diagram](setEulerDiagram_2x.png)
+![Diagram](readme-images/setEulerDiagram_2x.png)
 
 * Use the “is equal” operator (`==`) to determine whether two sets contain all of the same values.
 
