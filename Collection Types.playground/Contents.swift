@@ -449,3 +449,4 @@ let airportCodes = [String](airports.keys)
 let airportNames = [String](airports.values)
 // airportNames is ["London Heathrow", "Toronto Pearson"]
 //: Swift’s `Dictionary` type doesn’t have a defined ordering. To iterate over the keys or values of a dictionary in a specific order, use the `sorted()` method on its `keys` or `values` property.
+
